@@ -15,7 +15,7 @@
 });
     
     
-    gtag('event', 'sign_up', { 'event_category': 'engagement', 'event_label': 'form', 'value': '0'});
+   
 </script>
 
     <title>Site practica</title>
@@ -74,7 +74,7 @@
                     <br>
                     <p>
                         <input type="reset" value="Reiniciar el formulario">
-                        <input type="submit" value="Registrar" onclick="enviar()">
+                        <input type="submit" value="Registrar" onclick="enviar(),gtag('event', 'click', {'event_category': 'formulario', 'event_label': 'formulario contacto', 'value': '0'});">
                     </p>
                 </form>
             </div>
