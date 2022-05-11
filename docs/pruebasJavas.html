@@ -3,30 +3,31 @@
 
 <head>
     <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-228128251-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-228128251-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
 
-   gtag('config', 'UA-228128251-1', {
-  'page_title' : 'javascript',
-  'page_path': '/pruebasJava'
-});
-    
-   gtag('set', 'dimension1', 'JavaScript');
-   
-</script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-W7XT9N05WY"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+        gtag('config', 'UA-228128251-1', {
+            'page_title': 'javascript',
+            'page_path': '/pruebasJava'
+        });
 
-  gtag('config', 'G-W7XT9N05WY');
-</script>
- 
+        gtag('set', 'dimension1', 'JavaScript');
+
+    </script>
+    <!-- ------------------------------------------------------------------------------ -->
+    <!-- Global site tag (gtag.js) - Google Analytics 4 -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2L8ZKQ3XH2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-2L8ZKQ3XH2');
+    </script>
+
 
     <title>Site practica</title>
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -84,7 +85,8 @@
                     <br>
                     <p>
                         <input type="reset" value="Reiniciar el formulario">
-                        <input type="submit" value="Registrar" onclick="enviar(),gtag('event', 'click', {'event_category': 'formulario', 'event_label': 'registros formulario', 'value': '0'});">
+                        <input type="submit" value="Registrar"
+                            onclick="enviar(),gtag('event', 'click', {'event_category': 'formulario', 'event_label': 'registros formulario', 'value': '0'});">
                     </p>
                 </form>
             </div>
