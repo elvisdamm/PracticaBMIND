@@ -7,13 +7,13 @@
     <script>
         window.dataLayer = window.dataLayer || [];
 
-        window.dataLayer.push({
+
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+        gtag('config', 'UA-228128251-1', {
             'event': 'new_subscriber',
             'formLocation': 'footer'
         });
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
 
         gtag('config', 'UA-228128251-1', {
             'page_title': 'index',
