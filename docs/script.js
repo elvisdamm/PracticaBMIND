@@ -69,6 +69,7 @@ function ver_valores() {
 function evento() {
     window.dataLayer = window.dataLayer || []
     window.dataLayer.push({
-        event: "custom_click"
+        event: "custom_click",
+        type: "contact"
     })
 }
