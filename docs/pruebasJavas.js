@@ -3,6 +3,6 @@ window.dataLayer = window.dataLayer || []
         pageType: 'HTML',
         pageAuthor: 'Nuria Rodríguez Álvarez',
         pageHour: '18:00',
-        pageTitle: 'JavaScript',
-        pageType: 'Single Page'
+        pageTitle: 'JavaScript'
+    
     })

@@ -4,5 +4,5 @@ window.dataLayer = window.dataLayer || []
         pageAuthor: 'Pablo López Rodríguez',
         pageHour: '08:00',
         pageTitle: 'JQuery',
-        pageType: 'Double Page'
+        
     })
