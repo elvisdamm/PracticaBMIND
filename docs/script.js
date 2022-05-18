@@ -43,25 +43,33 @@ function ver_valores() {
     ventana.document.write("<table>");
     ventana.document.write("<tr>");
     ventana.document.write("<th>Nombre</th>");
-    ventana.document.write("<th>"+ num[1] +"</th>");
+    ventana.document.write("<th>" + num[1] + "</th>");
     ventana.document.write("</tr>");
     ventana.document.write("<tr>");
     ventana.document.write("<th>Apellidos</th>");
-    ventana.document.write("<th>"+ num[2] +"</th>");
+    ventana.document.write("<th>" + num[2] + "</th>");
     ventana.document.write("</tr>");
     ventana.document.write("<tr>");
     ventana.document.write("<th>Usuario</th>");
-    ventana.document.write("<th>"+ num[3] +"</th>");
+    ventana.document.write("<th>" + num[3] + "</th>");
     ventana.document.write("</tr>");
     ventana.document.write("<tr>");
     ventana.document.write("<th>Contraseña</th>");
-    ventana.document.write("<th>"+ num[4] +"</th>");
+    ventana.document.write("<th>" + num[4] + "</th>");
     ventana.document.write("</tr>");
     ventana.document.write("<tr>");
     ventana.document.write("<th>Comentarios</th>");
-    ventana.document.write("<th>"+ num[5] +"</th>");
+    ventana.document.write("<th>" + num[5] + "</th>");
     ventana.document.write("</tr>");
     ventana.document.write("</table>");
 }
 
 
+document.getElementById("env").onclick = function () { myFunction() };
+
+function myFunction() {
+    window.dataLayer = window.dataLayer || []
+    window.dataLayer.push({
+        event: "custom_click"
+    })
+}
