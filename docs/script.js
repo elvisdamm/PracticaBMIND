@@ -69,7 +69,6 @@ function ver_valores() {
 function evento() {
     window.dataLayer = window.dataLayer || []
     window.dataLayer.push({
-        event: "sign_up",
-        email_newsletter: true
+        event: "custom_click"
     })
 }
