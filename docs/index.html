@@ -10,10 +10,7 @@
 
         function ga() { dataLayer.push(arguments); }
         gtag('js', new Date());
-        gtag('config', 'UA-228128251-1', {
-            'event': 'new_subscriber',
-            'formLocation': 'footer'
-        });
+       
 
         gtag('config', 'UA-228128251-1', {
             'page_title': 'index',
@@ -21,7 +18,7 @@
         });
 
         var dimensionValue = 'Index';
-        gtag('send', '1', dimensionValue);
+        gtag('send', 'dimension1', dimensionValue);
     </script>
 
     <!-- ------------------------------------------------------------------------------ -->
