@@ -65,11 +65,11 @@ function ver_valores() {
 }
 
 
-document.getElementById("env").onclick = function () { myFunction() };
 
-function myFunction() {
+function evento() {
     window.dataLayer = window.dataLayer || []
     window.dataLayer.push({
-        event: "custom_click"
+        event: "sign_up",
+        email_newsletter: true
     })
 }
